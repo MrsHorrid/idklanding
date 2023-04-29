@@ -1,13 +1,14 @@
 <script>
 	import Card from "../lib/components/Card.svelte";
-
+    import Card2 from "../lib/components/Card2.svelte"
 
 </script>
 
 
 <div class="mb-8 text-white text-center p-6 m-6 px-[10rem] mt-[5rem]">
-<h1 class="text-6xl font-bold">We Are Validify!</h1>
-<p class="p-6 px-10 m-6 text-2xl">with our blockchain you can secure anything from metrics to preformance and even project proof of work</p>
+<h1 class="text-5xl font-bold">Don't Just Secure It!</h1>
+<h1 class = "text-9xl font-bold">Validify It!</h1>
+<p class="p-6 px-10 m-6 text-3xl">Secure Your Project Data and Metrics with Blockchain and AI</p>
 
 <a class="bg-black py-4 px-7 rounded-xl hover:bg-white hover:text-black ease-in-out duration-300 font-bold" href="/about">About Us</a>
 
@@ -21,8 +22,8 @@
 <div class="bg-white p-8">
     <div class="flex items-center justify-between p-8 gap-5">
         <div class="p-8">
-            <h1 class="text-5xl font-bold">Track Metrics on all of your users</h1>
-            <p class="mt-4">view advanced statistics with ease no matter where you are it will always be accesible</p>
+            <h1 class="text-5xl font-bold">Business Benefits</h1>
+            <p class="mt-4">Verify and Validate the Quality of your Projects and Project Contributors</p>
         </div>
         <div>
             <img src="https://cdn.discordapp.com/attachments/1063591220028383252/1099352324356456458/Frame_1.png" alt="" class="w-[45rem] hover:w-[48rem] ease-in-out duration-300">
@@ -34,7 +35,7 @@
 <div class="p-8">
     <div class="grid-cols-2 grid gap-4 p-8 px-[5rem]">
         <Card/>
-        <Card/>
+        <Card2/>
         <Card/>
         <Card/>
     </div>
