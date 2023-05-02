@@ -1,7 +1,5 @@
 <script>
-	import Card from "../lib/components/Card.svelte";
-    import Card2 from "../lib/components/Card2.svelte"
-
+	import Card1, Card2, Card3, Card4 from "$lib/components/*";
 </script>
 
 
@@ -34,10 +32,10 @@
 
 <div class="p-8">
     <div class="grid-cols-2 grid gap-4 p-8 px-[5rem]">
-        <Card/>
+        <Card1/>
         <Card2/>
-        <Card/>
-        <Card/>
+        <Card3/>
+        <Card4/>
     </div>
 </div>
 
