@@ -1,5 +1,8 @@
 <script>
-	import Card1, Card2, Card3, Card4 from "$lib/components/*";
+    import Card1 from '\/components/Card1.svelte';
+    import Card2 from '\/components/Card2.svelte';
+    import Card3 from '\/components/Card3.svelte';
+    import Card4 from '\/components/Card4.svelte';
 </script>
 
 
