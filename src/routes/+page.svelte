@@ -1,8 +1,11 @@
 <script>
-    import Card1 from '\/components/Card1.svelte';
-    import Card2 from '\/components/Card2.svelte';
-    import Card3 from '\/components/Card3.svelte';
-    import Card4 from '\/components/Card4.svelte';
+    import Card1 from '$lib/components/Card1.svelte';
+    import Card2 from '$lib/components/Card2.svelte';
+    import Card3 from '$lib/components/Card3.svelte';
+    import Card4 from '$lib/components/Card4.svelte';
+    import dash from '$lib/images/valid_dash.png';
+    import employees from '$lib/images/valid_employees.png'
+    import stats from '$lib/images/valid_stats.png'
 </script>
 
 
@@ -16,7 +19,7 @@
 </div>
 
 <div class="p-8">
-    <img src="https://cdn.discordapp.com/attachments/1063591220028383252/1099092004903862403/pitch.png" alt="" class="w-[80rem] m-auto border-[#826cff] border-[1rem] rounded-[2rem] shadow-lg">
+    <img src={dash} alt="" class="w-[80rem] m-auto border-[#826cff] border-[1rem] rounded-[2rem] shadow-lg">
 
 </div>
 
@@ -27,7 +30,7 @@
             <p class="mt-4">Verify and Validate the Quality of your Projects and Project Contributors</p>
         </div>
         <div>
-            <img src="https://cdn.discordapp.com/attachments/1063591220028383252/1099352324356456458/Frame_1.png" alt="" class="w-[45rem] hover:w-[48rem] ease-in-out duration-300">
+            <img src={employees} alt="" class="w-[45rem] hover:w-[48rem] ease-in-out duration-300">
         </div>
     </div>
 
@@ -45,11 +48,35 @@
 <div class="p-8 bg-white">
     <div class="flex items-center p-8 justify-between gap-4">
         <div>
-            <img src="https://cdn.discordapp.com/attachments/1084571551346737152/1099358775607046204/Frame_2.png" alt="" class="w-[45rem] hover:w-[48rem] ease-in-out duration-300">
+            <img src={stats} alt="" class="w-[45rem] hover:w-[48rem] ease-in-out duration-300">
         </div>
         <div class="p-6">
-            <h1 class="text-5xl font-bold">Advanced Dahsboard</h1>
-            <p class="mt-4">track advanced statistics on all of your projects</p>
+            <h1 class="text-5xl font-bold">Validify Your Projects!</h1>
+            <p class="mt-4">Advertise Your Quality with a Validify NFT Badge for Your Project, Company, and Assets that Links to your Public Blockchain Secured Reports and Data to Prove your Project Quality and Security.</p>
+        </div>
+    </div>
+</div>
+
+<div class="p-8 bg-white">
+    <div class="flex items-center p-8 justify-between gap-4">
+        <div>
+            <img src={stats} alt="" class="w-[45rem] hover:w-[48rem] ease-in-out duration-300">
+        </div>
+        <div class="p-6">
+            <h1 class="text-5xl font-bold">Validify Your Audits!</h1>
+            <p class="mt-4">Both Public and Private Reports of Project Quality and Standards Can Be Validified With Our Blockchain. This Automated Collection, Management, and Controlled Access to Detailed Reprots Can Save Hundreds of Thousands of Dollars Per Year in Time and Resources Dedicated to Regular Audits and Reporting Processes.</p>
+        </div>
+    </div>
+</div>
+
+<div class="p-8 bg-white">
+    <div class="flex items-center p-8 justify-between gap-4">
+        <div>
+            <img src={stats} alt="" class="w-[45rem] hover:w-[48rem] ease-in-out duration-300">
+        </div>
+        <div class="p-6">
+            <h1 class="text-5xl font-bold">Validify Your Employees!</h1>
+            <p class="mt-4">Every Project Contributor Receives and NFT Badge as Proof of Their Project Contribution and Related Metrics. This Data Can be Validiated Securely Across Companies Without Risking Confidential or Secure Data. Validate Your Employees and Contractors Are Top Quality and Have Proven Experience. </p>
         </div>
     </div>
 </div>
