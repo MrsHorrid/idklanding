@@ -29,14 +29,7 @@
             <h1 class="text-5xl font-bold">Business Benefits</h1>
             <p class="mt-4">Verify and Validate the Quality of your Projects and Project Contributors</p>
         </div>
-        <div>
-            <img src={employees} alt="" class="w-[45rem] hover:w-[48rem] ease-in-out duration-300">
-        </div>
     </div>
-
-</div>
-
-<div class="p-8">
     <div class="grid-cols-2 grid gap-4 p-8 px-[5rem]">
         <Card1/>
         <Card2/>
@@ -57,7 +50,7 @@
     </div>
 </div>
 
-<div class="p-8 bg-white">
+<div class="p-8 bg-purple">
     <div class="flex items-center p-8 justify-between gap-4">
         <div>
             <img src={stats} alt="" class="w-[45rem] hover:w-[48rem] ease-in-out duration-300">
@@ -72,7 +65,7 @@
 <div class="p-8 bg-white">
     <div class="flex items-center p-8 justify-between gap-4">
         <div>
-            <img src={stats} alt="" class="w-[45rem] hover:w-[48rem] ease-in-out duration-300">
+            <img src={employees} alt="" class="w-[45rem] hover:w-[48rem] ease-in-out duration-300">
         </div>
         <div class="p-6">
             <h1 class="text-5xl font-bold">Validify Your Employees!</h1>
