@@ -1,6 +1,6 @@
 <script>
     import "../app.css";
-  </script>
+</script>
 <!--   
   <nav class="flex justify justify-between p-4 px-8 items-center bg-white m-10 rounded-[2rem]">
     <div>
@@ -13,13 +13,13 @@
     </div>
 
   </nav> -->
-  <main>
-    <slot />
-  </main>
+<main>
+  <slot />
+</main>
 
-  <style>
-    :global(html)
-    {
-      background-color: #4d1cff;
-    }
-  </style>
+<style lang="postcss">
+  :global(html)
+  {
+    background-color: #4d1cff;
+  }
+</style>

@@ -20,7 +20,6 @@
 
 <div class="p-8">
     <img src={dash} alt="" class="w-[80rem] m-auto border-[#826cff] border-[1rem] rounded-[2rem] shadow-lg">
-
 </div>
 
 <div class="bg-white p-8">
@@ -73,4 +72,3 @@
         </div>
     </div>
 </div>
-
